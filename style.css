@@ -4,3 +4,35 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dark-bg: #1f2937;
+    --main-text-color: #f9faf8;
+    --secondary-text-color: #e5e7eb;
+    --blue-btn: #3882f6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.section {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: var(--dark-bg);
+    max-width: 1200px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+}
